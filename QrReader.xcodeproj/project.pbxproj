@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80A9777628C78A58004D2C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		80FD8E1F28B9EEAA00A6D156 /* QrReaderOrg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QrReaderOrg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80FD8E2228B9EEAA00A6D156 /* QrReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrReaderApp.swift; sourceTree = "<group>"; };
 		80FD8E2428B9EEAA00A6D156 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		80FD8E2128B9EEAA00A6D156 /* QrReader */ = {
 			isa = PBXGroup;
 			children = (
+				80A9777628C78A58004D2C3A /* Info.plist */,
 				80FD8E3828B9F06D00A6D156 /* SecondView.swift */,
 				80FD8E3628B9F01500A6D156 /* QrCodeScannerView.swift */,
 				80FD8E3428B9EFE900A6D156 /* CameraPreview.swift */,
@@ -290,6 +292,7 @@
 				DEVELOPMENT_TEAM = HM95A82JPG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QrReader/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +323,7 @@
 				DEVELOPMENT_TEAM = HM95A82JPG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QrReader/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
